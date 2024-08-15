@@ -4,110 +4,155 @@
 		<meta charset="UTF-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 		<title>Candra - Introduction</title>
+		<script src="https://cdn.tailwindcss.com"></script>
+		<script src="https://cdn.tailwindcss.com?plugins=forms,typography,aspect-ratio,line-clamp,container-queries"></script>
 		<link rel="shortcut icon" href="assets/icon/candra.ico" type="image/x-icon" />
 		<link rel="stylesheet" href="style.css" />
 	</head>
 	<body>
-		<main>
-			<section>
-				<div class="foto">
-					<img src="assets/img/candra.jpg" alt="Candra" width="300" />
-				</div>
-				<div class="name">
-					<h1>Candra</h1>
-				</div>
-				<div class="profesi">
-					<div class="android">
-						<img src="https://developers.google.com/static/profile/badges/playlists/android/android-11-week-6/Android-Badges-Jetpackv3.svg" alt="android" width="50" />
-						<h2>Android Developer</h2>
+		<main class="h-screen flex min-w-[500px]">
+			<div class="flex mx-auto my-auto">
+				<section class="md:w-[768px] lg:w-[1300px] p-[20px] my-8 rounded-lg">
+					<div class="flex flex-col lg:flex-row items-center mx-auto justify-around">
+						<div class="foto flex items-center">
+							<img src="assets/img/candra.jpg" alt="Candra" class="w-[200px] lg:w-[300px]" />
+						</div>
+						<div class="flex flex-col justify-center">
+							<div class="name">
+								<h1 class="font-bold">Candra</h1>
+								<div class="mt-4">
+									<blockquote class="text-sm">Bangkit Academy 2023 Batch 2 Graduate (Led by Google, GoTo & Traveloka) Mobile Development (Android)</blockquote>
+									<blockquote class="text-sm">Student at Multi Data Palembang University, Faculty of Computer Science and Engineering, Informatics</blockquote>
+								</div>
+							</div>
+							<div class="flex gap-16 mt-8 mx-auto p-4">
+								<div class="flex items-center gap-4">
+									<img
+										src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgDO1eKkrXPdSBxo_ZNX250ZBNH-FfexvOxc3mDX8LfcCRCByx0OOWzAGDqYPauyn3BZQq7Kw0K3zC_Hkg1ioaMkBeobbINIlF-h2NLMhO5IgNMYGI5EUQ0acIwITbQb8WFI8vgfj2yYx8/s1600/Jetpack_logo+%25282%2529.png"
+										alt="android"
+										width="50"
+									/>
+									<h2 class="font-bold">Android Developer</h2>
+								</div>
+
+								<div class="flex items-center gap-4">
+									<img src="https://seeklogo.com/images/G/google-developers-logo-F8BF3155AC-seeklogo.com.png" alt="web" width="50" />
+									<h2 class="font-bold">Front End Web Developer</h2>
+								</div>
+							</div>
+
+							<div class="flex gap-4 mt-8 items-center flex-wrap justify-evenly p-4">
+								<!-- Programming Language -->
+								<img src="assets/icon/kotlin.png" alt="kotlin" class="w-[30px]" />
+								<img src="assets/icon/java.png" alt="java" class="w-[40px]" />
+								<img src="assets/icon/js.png" alt="js" class="w-[40px]" />
+								<img src="assets/icon/ts.png" alt="ts" class="w-[50px]" />
+								<img src="assets/icon/php.png" alt="php" class="w-[50px]" />
+								<img src="assets/icon/py.png" alt="py" class="w-[40px]" />
+
+								<!-- Framework -->
+								<img src="assets/icon/vuejs.png" alt="vuejs.png" class="w-[50px]" />
+								<img src="assets/icon/reactjs.png" alt="reactjs.png" class="w-[40px]" />
+								<img src="https://nuxt.com/assets/design-kit/icon-green.svg" alt="nuctjs.png" class="w-[40px]" />
+								<img src="assets/icon/laravel.png" alt="laravel.png" class="w-[35px]" />
+
+								<!-- Style -->
+								<img src="assets/icon/tailwind.png" alt="tailwind" class="w-[50px]" />
+								<img src="https://flowbite.com/images/logo.svg" alt="flowbite" class="w-[40px]" />
+								<img src="assets/icon/bootstrap.png" alt="bootstrap.png" class="w-[50px]" />
+								<img src="assets/icon/vuetify.png" alt="vuetify.png" class="w-[35px]" />
+								<img src="https://i2.wp.com/www.primefaces.org/wp-content/uploads/2019/12/primevue-logo.png?fit=1000%2C1000&ssl=1&w=640" alt="primevue.png" class="w-[35px]" />
+							</div>
+						</div>
 					</div>
 
-					<div class="web">
-						<img src="https://seeklogo.com/images/G/google-developers-logo-F8BF3155AC-seeklogo.com.png" alt="web" width="50" />
-						<h2>Front End Web Developer</h2>
+					<div class="about-me text-sm">
+						<h2 class="font-bold text-2xl">About Me</h2>
+						<div class="line"></div>
+						<blockquote class="mt-4 text-xl">Hi Everyone !</blockquote>
+						<p class="lg:text-base">
+							Introduce myself, my name is <b>Candra</b>.
+							<br />
+							<br />
+							Personally, I am <b>"Someone who doesn't give up easily"</b>. This reflects my personality which does not give up easily in facing various challenges, especially in the field of technology. I will complete each challenge step by step to achieve my goal.
+							<br />
+							<br />
+							I am a <b>10% Distinction Graduate of the Bangkit Academy 2023 Batch 2 - Mobile Development (Android) Learning Path</b> program and I am a member of the <b>Best 50 Product-based Capstone Project teams</b> out of 639 existing Capstone Project teams. 🏅🏆
+							<br />
+							<br />
+							I have an interest in <b>Mobile Development (Android)</b> 📱 and <b>Front End Web Developer</b> 🌐. To develop my interests, I studied at <a href="https://www.mdp.ac.id" class="hover:text-blue-500 hover:underline"><b>Multi Data Palembang University</b></a
+							>. Here, I am taking the Informatics study program, at the Faculty of Computer Science and Engineering. Currently, I am in the 7th Semester.
+							<br />
+							<br />
+							If you are interested in getting to know me, please connect
+						</p>
 					</div>
-				</div>
 
-				<div class="about-me">
-					<h2>About Me</h2>
-					<div class="line"></div>
-					<blockquote>Hi Everyone !</blockquote>
-					<p>
-						Introduce myself, my name is <b>Candra</b>.
-						<br />
-						<br />
-						Personally, I am <b>"Someone who doesn't give up easily"</b>. This reflects my personality which does not give up easily in facing various challenges, especially in the field of technology. I will complete each challenge step by step to achieve my goal.
-						<br />
-						<br />
-						I am a <b>10% Distinction Graduate of the Bangkit Academy 2023 Batch 2 - Mobile Development (Android) Learning Path</b> program and I am a member of the <b>Best 50 Product-based Capstone Project teams</b> out of 639 existing Capstone Project teams. 🏅🏆
-						<br />
-						<br />
-						I have an interest in <b>Mobile Development (Android)</b> 📱 and <b>Front End Web Developer</b> 🌐. To develop my interests, I studied at <a href="https://www.mdp.ac.id"><b>Multi Data Palembang University</b></a
-						>. Here, I am taking the Informatics study program, at the Faculty of Computer Science and Engineering. Currently, I am in the 6th Semester.
-						<br />
-						<br />
-						If you are interested in getting to know me, please connect
-					</p>
-				</div>
+					<div class="flex flex-wrap gap-4 justify-evenly">
+						<!-- Linked In -->
+						<a href="https://www.linkedin.com/in/candra1525/" target="_blank" class="hover:font-bold">
+							<div class="rounded-lg shadow-xl p-4 flex items-center gap-4">
+								<img src="assets/icon/linkedin.png" alt="linkedin" class="logo-linkedin" width="30" />
+								<blockquote>Linked In</blockquote>
+							</div>
+						</a>
 
-				<div class="connect">
-					<!-- Linked In -->
-					<a href="https://www.linkedin.com/in/candra1525/">
-						<div class="linkedin">
-							<img src="assets/icon/linkedin.png" alt="linkedin" class="logo-linkedin" width="40" />
-							<blockquote>Linked In</blockquote>
-						</div>
-					</a>
+						<!-- Github -->
+						<a href="https://github.com/candra1525" target="_blank" class="hover:font-bold">
+							<div class="rounded-lg shadow-xl p-4 flex items-center gap-4">
+								<img src="assets/icon/github.png" alt="github" class="logo-github" width="30" />
+								<blockquote>Github</blockquote>
+							</div>
+						</a>
 
-					<!-- Github -->
-					<a href="https://github.com/candra1525">
-						<div class="github">
-							<img src="assets/icon/github.png" alt="github" class="logo-github" width="40" />
-							<blockquote>Github</blockquote>
-						</div>
-					</a>
+						<!-- Instagram -->
+						<a href="https://www.instagram.com/candracandra1525/" target="_blank" class="hover:font-bold">
+							<div class="rounded-lg shadow-xl p-4 flex items-center gap-4">
+								<img src="assets/icon/instagram.png" alt="instagram" class="logo-instagram" width="30" />
+								<blockquote>Instagram</blockquote>
+							</div>
+						</a>
 
-					<!-- Instagram -->
-					<a href="https://www.instagram.com/candracandra1525/">
-						<div class="instagram">
-							<img src="assets/icon/instagram.png" alt="instagram" class="logo-instagram" width="40" />
-							<blockquote>Instagram</blockquote>
-						</div>
-					</a>
+						<!-- Medium -->
+						<a href="https://medium.com/@candra_2007" target="_blank" class="hover:font-bold">
+							<div class="rounded-lg shadow-xl p-4 flex items-center gap-4">
+								<img src="assets/icon/medium.png" alt="medium" class="logo-medium" width="30" />
+								<blockquote>Medium</blockquote>
+							</div>
+						</a>
 
-					<!-- Medium -->
-					<a href="https://medium.com/@candra_2007">
-						<div class="medium">
-							<img src="assets/icon/medium.png" alt="medium" class="logo-medium" width="40" />
-							<blockquote>Medium</blockquote>
-						</div>
-					</a>
+						<!-- Dribble -->
+						<a href="https://dribbble.com/candra_20" target="_blank" class="hover:font-bold">
+							<div class="rounded-lg shadow-xl p-4 flex items-center gap-4">
+								<img src="assets/icon/dribble.png" alt="dribble" class="logo-dribble" width="30" />
+								<blockquote>Dribble</blockquote>
+							</div>
+						</a>
+					</div>
 
-					<!-- Dribble -->
-					<a href="https://dribbble.com/candra_20">
-						<div class="dribble">
-							<img src="assets/icon/dribble.png" alt="dribble" class="logo-dribble" width="40" />
-							<blockquote>Dribble</blockquote>
-						</div>
-					</a>
-				</div>
+					<div class="contact">
+						<blockquote class="lg:text-base p-[20px]">If you want to contact me further, you can contact me via</blockquote>
 
-				<div class="contact">
-					<blockquote>If you want to contact me further, you can contact me via</blockquote>
-					<a href="mailto:candraandi2003@gmail.com">
-						<div class="gmail">
-							<img src="assets/icon/gmail.png" alt="gmail" class="logo-gmail" width="40" />
-							<blockquote>Gmail</blockquote>
-						</div>
-					</a>
-				</div>
+						<a href="https://mail.google.com/mail/?view=cm&fs=1&to=candraandi2003@gmail.com" target="_blank" class="flex justify-center mt-4 hover:font-bold">
+							<div class="rounded-lg shadow-xl p-4 flex items-center justify-evenly gap-4 w-[150px]">
+								<img src="assets/icon/gmail.png" alt="gmail" class="logo-gmail" width="30" />
+								<blockquote class="mb-2">Gmail</blockquote>
+							</div>
+						</a>
+					</div>
 
-				<div class="thank-you">
-					<blockquote>Thank You 🚀</blockquote>
-				</div>
+					<div class="thank-you">
+						<blockquote>Thank You 🚀</blockquote>
+					</div>
 
-				<footer>&copy; 2024 - Candra - Informatics Student</footer>
-			</section>
+					<footer>&copy; <span id="year"></span> - Candra - Informatics Student</footer>
+					<div class="text-end">V.1.2.0</div>
+				</section>
+			</div>
 		</main>
 	</body>
+	<script>
+		const currentYear = new Date().getFullYear();
+		document.getElementById('year').textContent = currentYear;
+	</script>
 </html>
